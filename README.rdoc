@@ -1,0 +1,25 @@
+= TinyMCE Plugin Example
+
+This gem is an example of how to utilize the tiny_mce gem's plugin system.
+
+Uses for the tiny_mce plugin system:
+
+* Insert languages on application start up
+* Insert plugins on application startup
+* Adjust source files on application startup
+
+For documentation on how to write a tiny_mce plugin, see the tiny_mce README at:
+
+http://github.com/kete/tiny_mce/blob/master/README.rdoc
+
+
+= Usage
+
+To use this plugin, clone the source, gem build, gem install, and add the following after the tiny_mce gem config line:
+
+  config.gem 'tiny_mce-plugin'
+
+
+= Credits
+
+This gem was created by Kieran Pilkington <kieran@katipo.co.nz>
