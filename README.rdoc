@@ -19,6 +19,7 @@ To use this plugin, clone the source, gem build, gem install, and add the follow
 
   config.gem 'tiny_mce-plugin'
 
+The comments in lib/tiny_mce-paste.rb should give you the information you need to make adjustments for your own plugin.
 
 = Credits
 
